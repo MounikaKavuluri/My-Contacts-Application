@@ -1,0 +1,88 @@
+
+.Header {
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: Verdana;
+    width: inherit;
+    padding: 8px;
+    top: 0;
+    margin: 0;
+    height: 12%;
+    left :0;
+    right:0;
+    position: absolute;
+}
+
+#body {
+    width: 30%;
+    height: 40%;
+}
+
+.footer {
+    display: inline-flex;
+    /*box-sizing: border-box;*/
+    position: absolute;
+    bottom: 0;
+    left :0;
+    right:0;
+    font-family: Verdana;
+    padding: 4px;
+    color: white;
+    font-size: large;
+    background-color: black;
+    text-align: justify;
+}
+
+.loginbtn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.loginbtn2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    margin-right: 20px;
+    float: inherit;
+    cursor: pointer;
+}
+
+.login {
+    border-radius: 8px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 10%;
+    font-size: 16px;
+
+}
+
+input[type="password"] {
+    width: 10%;
+    font-size: 16px;
+
+}
+
