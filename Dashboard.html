@@ -2,43 +2,73 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="UI.css">
+    <script type="text/javascript" src="Script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Contacts</title>
 </head>
-<body>
+<body onload="return loadContacts()">
 
 <!--  Header Section -->
 
 <div class="Header">
-    <center>
-        <h1> MY CONTACTS
+
+    <h1> MY CONTACTS
+        <a href="Duplicates.html">  <button class="dashboard tabs" >Duplicates</button></a>
+        <a href="Trash.html">  <button class="dashboard tabs" >Trash</button></a>
+        <a href="Dashboard.html">  <button class="dashboard tabs" >Contacts</button></a>
+    </h1>
 
 
-        </h1>
-
-    </center>
 </div>
 <br>
 
 <!-- Body Section -->
+<div class="main">
+    <div id="body" style="width:100%;height:100%; float: inherit;">
 
-<div id="body" style="width:100%;height:50%; float: inherit;">
+        <br><br><br> <br><br><br> <br><br>
+        <div id="contactlist" style="width: 30%; height: 100%; float: left">
+            <table id="ContactsFromJson">
+                <thead>
+                <th>
+                &nbsp; &nbsp; &nbsp; Contacts &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                <button class="icons"><i class="fa fa-search"></i></button>
+                <a href="Dashboard.html"><button class="icons"><i class="fa fa-plus"></i></button></a>
+                <button class="icons"><i class="fa fa-check"></i></button>
 
-    <br><br><br>
-    <center>
+                </th>
+                </thead>
 
+            </table>
+        </div>
+        <center>
+            <div id="contactsview" style="width: 50%; height: 100%; float: right">
+                <button class="arrow"><i class="fa fa-arrow-left"></i></button>
+                <p>
+                <center>
+                    <h1> Hi! </h1>
+                    <h2> <i>Choose a contact to start!</i> </h2>
+                </center>
 
-    </center>
+                </p>
+
+            </div>
+        </center>
 
 </div>
-
+</div>
 <!-- Footer Secion -->
 
-<div class="footer" style="width:100%;">
+<div class="footer">
     <center>
-
-        <h5> Powered By SemanticBits </h5>
+        <br>
+        <h5>  Powered By SemanticBits
+            <a href="ContactUs.html" style="float:right;">  <button class="footbtn foot" >Contact Us</button></a>
+            <a href="AboutUs.html" style="float:right;">  <button class="footbtn foot" >About Us</button></a>
+            <a href="Home.html" style="float:right;">  <button class="footbtn foot" >Home</button></a>
+        </h5>
 
     </center>
 </div>

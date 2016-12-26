@@ -1,0 +1,98 @@
+[
+  {
+    "fname": "Mounika",
+    "lname": "Kavuluri",
+    "email": "kavulurimounika7@gmail.com",
+    "mobileno": "8897674392",
+    "type": "Perosnal",
+    "address": {
+      "street1": "H.no:11-6-299,F-4,Gruhashilpi Homes",
+      "street2": "Pochammabagh, Saroornagar",
+      "city": "Hyderabad",
+      "post_code": "5...35",
+      "region": "Saroornagar",
+      "state": "Telangana",
+      "country": "India"
+    }
+  },
+  {
+    "fname": "Dad",
+    "lname": "Kavuluri",
+    "email": "viswarupachari@gmail.com",
+    "mobileno": "9912844903",
+    "type": "Perosnal",
+    "address": {
+      "street1": "H.no:11-6-299,F-4,Gruhashilpi Homes",
+      "street2": "Pochammabagh, Saroornagar",
+      "city": "Hyderabad",
+      "post_code": "5...35",
+      "region": "Saroornagar",
+      "state": "Telangana",
+      "country": "India"
+    }
+  },
+  {
+    "fname": "Vidya",
+    "lname": "Kavuluri",
+    "email": "kavulurividyasagar@gmail.com",
+    "mobileno": "8686589089",
+    "type": "Perosnal",
+    "address": {
+      "street1": "H.no:11-6-299,F-4,Gruhashilpi Homes",
+      "street2": "Pochammabagh, Saroornagar",
+      "city": "Hyderabad",
+      "post_code": "500035",
+      "region": "Saroornagar",
+      "state": "Telangana",
+      "country": "India"
+    }
+  },
+  {
+    "fname": "Arun",
+    "lname": "Viswanadhula",
+    "email": "arunv@gmail.com",
+    "mobileno": "8036957847",
+    "type": "Relative",
+    "address": {
+      "street1": "H.no:11-6-289, Sri sai Nilayam",
+      "street2": "Srinagar Colony",
+      "city": "Hyderabad",
+      "post_code": "500082",
+      "region": "S.R.Nagar",
+      "state": "Telangana",
+      "country": "India"
+    }
+  },
+  {
+    "fname": "Laa",
+    "lname": "Rachakonda",
+    "email": "rlaavanya@gmail.com",
+    "mobileno": "9000910638",
+    "type": "Friends",
+    "address": {
+      "street1": "88 8nd Street",
+      "street2": "Okhlama",
+      "city": "Ohio",
+      "post_code": "216",
+      "region": "",
+      "state": "Texas",
+      "country": "USA"
+    }
+  },
+  {
+    "fname": "Naseer Sir",
+    "lname": "",
+    "email": "naseermohammad@gmail.com",
+    "mobileno": "9652122738",
+    "type": "Faculty",
+    "address": {
+      "street1": "H.no:2-2-4,G-4,Ali Homes",
+      "street2": "Srinivasa colony",
+      "city": "Hyderabad",
+      "post_code": "500068",
+      "region": "Mansoorabad",
+      "state": "Telangana",
+      "country": "India"
+    }
+  }
+]

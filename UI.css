@@ -1,88 +1,239 @@
 
+/*div.main{
+    min-height: 120%;
+}*/
 .Header {
     background-color: black;
     color: white;
     font-size: large;
     font-family: Verdana;
     width: inherit;
-    padding: 8px;
+    padding: 1%;
     top: 0;
     margin: 0;
     height: 12%;
     left :0;
     right:0;
-    position: absolute;
+    position: fixed;
+}
+#img{
+    padding-left: 40%;
+}
+#img2{
+    padding-left: 10%;
 }
 
-#body {
-    width: 30%;
-    height: 40%;
-}
+div.footer {
+         /*display: inline-flex;*/
+        padding: 1%;
+        box-sizing: border-box;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-family: Verdana;
+        color: white;
+        font-size: large;
+        background-color: black;
+        clear: both;
 
-.footer {
-    display: inline-flex;
-    /*box-sizing: border-box;*/
-    position: absolute;
-    bottom: 0;
-    left :0;
-    right:0;
-    font-family: Verdana;
-    padding: 4px;
-    color: white;
-    font-size: large;
-    background-color: black;
-    text-align: justify;
 }
 
 .loginbtn {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1% 2%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 2px 2px;
-    margin-right: 20px;
+    margin: 0.5% 0.5%;
+    margin-right: 1%;
     float: right;
     cursor: pointer;
 }
 
 .loginbtn2 {
-    background-color: #4CAF50; /* Green */
+    background-color: darkgreen; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1% 2%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 2px 2px;
+    margin: 0.5% 0.5%;
+    margin-right: 1%;
+    float: inherit;
+    cursor: pointer;
+}
+.regisbtn {
+    background-color: darkcyan ; /* crimson */
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.5% 0.5%;
+    margin-right: 1%;
+    float: inherit;
+    cursor: pointer;
+}
+.forgotbtn {
+    background-color: red; /* red */
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.5% 0.5%;
+    margin-right: 1%;
+    float: inherit;
+    cursor: pointer;
+}
+.login {
+    border-radius: 12px;
+}
+.dashboard {
+    background-color: darkturquoise; /* darkturquoise */
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.5% 0.5%;
+    margin-right: 1%;
+    float: right;
+    cursor: pointer;
+}
+.tabs {
+    border-radius: 12px;
+}
+#contactlist{
+    background-color: silver; /* silver */
+    /*padding-left: 0.5%;*/
+    margin-left: 5%;
+
+}
+table#ContactsFromJson {
+    cursor: pointer;
+}
+#contactsview{
+    width: 50%; height: 100%; float: right;
+    background-color: silver; /* silver */
+    /*padding-left: 0.5%;*/
+    margin-right: 5%;
+}
+#contactsview input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contactsview input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icons{
+    background-color: aliceblue ; /* aliceblue */
+    border: none;
+    color: dodgerblue;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    float: inherit;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+.icon{
+    background-color: gainsboro ; /* gainsboro */
+    border: none;
+    color: dodgerblue;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 10px;
+    float: inherit;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.arrow{
+    background-color: dodgerblue ; /* gainsboro */
+    border: none;
+    color: white;
+    padding: 30px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    margin-right: 10px;
+    float: left;
+    /*cursor: pointer;*/
+    border-radius: 15px 50px 30px 5px;
+    width: 40%;
+
+}
+.footbtn {
+    background-color: crimson ; /* crimson */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
     margin-right: 20px;
     float: inherit;
     cursor: pointer;
 }
-
-.login {
-    border-radius: 8px;
+.foot {
+    border-radius: 12px;
 }
-
 p {
     font-family: Verdana;
     font-size: 16px;
     text-align: center;
 }
-
+pre {
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+}
 input[type="text"] {
-    width: 10%;
+    width: 15%;
     font-size: 16px;
+    padding: 0.5%;
 
 }
-
 input[type="password"] {
-    width: 10%;
+    width: 15%;
     font-size: 16px;
+    padding: 0.5%;
 
 }
-

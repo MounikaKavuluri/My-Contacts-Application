@@ -9,49 +9,60 @@
 <body>
 
 <!--  Header Section -->
+<div class="container">
 
     <div class="Header">
         <center>
-            <h1> MY CONTACTS
-
-
-            </h1>
+            <h1> MY CONTACTS</h1>
 
         </center>
     </div>
     <br>
 
 <!-- Body Section -->
+<div class="main">
+    <div id="body" style="width:100%;height:100%; float: inherit;">
 
-    <div id="body" style="width:100%;height:50%; float: inherit;">
+        <br><br><br> <br><br><br>
 
-        <br><br><br>
         <center>
-        <form method="get" action="Dashboard.html">
+            <h2 style="color: deeppink"> LOGIN </h2>
+            <form method="get" action="Dashboard.html">
             <pre>
-                <p>
+                <br>
         Mobile Number:    <input type="text" name="number" placeholder="Mobile Number.." pattern="^\d{10}$" title="Invalid Number" required>
         <br>
         Password:            <input type="password" name="password" placeholder="Password.."pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                                     title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-        <br> </p></pre>
-                <button class="loginbtn2 login">Login</button>
 
-        </form>
+            </pre>
+
+            &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+            <a href="Dashboard.html"><button class="loginbtn2 login">Login</button></a>
+            <a href="Register.html"><button class="regisbtn login">Register</button></a>
+            <a href="Forgotpwd.html"><button class="forgotbtn login">Forgot Password</button></a>
+
+            <br><br><br><br><br><br><br><br>
+            </form>
         </center>
 
     </div>
-
+</div>
+</div>
 <!-- Footer Secion -->
 
-    <div class="footer" style="width:100%;">
-        <center>
+<div class="footer">
+    <center>
+        <br>
+        <h5>  Powered By SemanticBits
+            <a href="ContactUs.html" style="float:right;">  <button class="footbtn foot" >Contact Us</button></a>
+            <a href="AboutUs.html" style="float:right;">  <button class="footbtn foot" >About Us</button></a>
+            <a href="Home.html" style="float:right;">  <button class="footbtn foot" >Home</button></a>
+        </h5>
 
-            <h5> Powered By SemanticBits </h5>
+    </center>
+</div>
 
-
-        </center>
-    </div>
 
 </body>
 </html>
